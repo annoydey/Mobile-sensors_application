@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".References"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="References"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/reflink0"
+        android:layout_width="420dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/hyperlink0"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reflink1"
+        android:layout_width="420dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/hyperlink1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#FBFBFB"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reflink2"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/hyperlink2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#FBFAFA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reflink3"
+        android:layout_width="420dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="320dp"
+        android:text="@string/hyperlink3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#FAF8F8"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reflink4"
+        android:layout_width="420dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="370dp"
+        android:text="@string/hyperlink4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#FBFBFB"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reflink5"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="420dp"
+        android:text="@string/hyperlink5"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#FDFDFD"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/prev_btn1"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        app:cornerRadius="28dp"
+        android:text="Previous Sensor Task" />
+
+</RelativeLayout>

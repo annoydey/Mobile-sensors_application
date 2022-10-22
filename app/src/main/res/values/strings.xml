@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_1">Activity1</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_3">Activity3</string>
+    <string name="title_activity_4">Activity_4</string>
+    <string name="title_activity_sourcecode">sourcecode</string>
+    <string name="title_activity_references">References</string>
+    <string name="hyperlink0">1) <a href="https://youtu.be/xcsuDDQHrLo">https://youtu.be/xcsuDDQHrLo</a></string>
+    <string name="hyperlink1">2) <a href="https://youtu.be/LPjhP9D3pm8m">https://youtu.be/LPjhP9D3pm8m</a></string>
+    <string name="hyperlink2">3) <a href="https://developer.android.com/reference/kotlin/android/inputmethodservice/Keyboard">https://developer.android.com/reference/kotlin/android/inputmethodservice/Keyboard</a></string>
+    <string name="hyperlink3">4) <a href="https://youtu.be/DlQvhjV9Jds">https://youtu.be/DlQvhjV9Jds</a></string>
+    <string name="hyperlink4">5) <a href="https://youtu.be/a3yLc9J0hGE">https://youtu.be/a3yLc9J0hGE</a></string>
+    <string name="hyperlink5">6) <a href="https://www.educative.io/answers/how-to-create-hyperlinks-using-android-textview">https://www.educative.io/answers/how-to-create-hyperlinks-using-android-textview</a></string>
+
+</resources>

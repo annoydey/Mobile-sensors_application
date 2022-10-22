@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FF031F35">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/fingergif"
+        android:layout_width="450dp"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:background="#031F35"
+        android:src="@drawable/fp2" />
+
+    <ImageView
+        android:id="@+id/display_img"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ublogo" />
+
+    <ImageView
+        android:id="@+id/acess"
+        android:src="@drawable/faa"
+        android:layout_marginTop="240dp"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/acessdenied"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/fad" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="160dp"
+        android:textAlignment="center"
+        android:text="Annoy Dey"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Auth_status"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:text="Verification Status"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/authbtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="Lets Go" />
+
+</RelativeLayout>
+

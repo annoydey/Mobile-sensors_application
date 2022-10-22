@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+  <TextView
+      android:id="@+id/upper_text"
+      android:layout_width="300dp"
+      android:layout_height="60dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="20dp"
+      android:text="Light Sensor"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="40sp" />
+
+
+  <TextView
+      android:id="@+id/last_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="150dp"
+      android:text=""
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="30sp" />
+
+
+  <Button
+      android:id="@+id/nxtbtn"
+      android:layout_width="190dp"
+      android:layout_height="60dp"
+      android:layout_centerInParent="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="90dp"
+      app:cornerRadius="28dp"
+      android:text="Next Sensor Task" />
+
+  <Button
+      android:id="@+id/prevbtn"
+      android:layout_width="240dp"
+      android:layout_height="60dp"
+      android:layout_alignParentBottom="true"
+      android:layout_centerInParent="true"
+      android:layout_marginBottom="30dp"
+      app:cornerRadius="28dp"
+      android:text="Previous Sensor Task" />
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="290dp"
+      android:layout_height="60dp"
+      android:layout_centerHorizontal="true"
+      app:cardElevation="10dp"
+      app:cardCornerRadius="26dp"
+      android:backgroundTint="#6DD5FA"
+      android:layout_marginTop="80dp"
+      >
+    <TextView
+        android:id="@+id/middle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+      </androidx.cardview.widget.CardView>
+
+  <pl.droidsonroids.gif.GifImageView
+      android:id="@+id/display_img"
+      android:layout_width="500dp"
+      android:layout_height="200dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="200dp"
+      android:src="@drawable/sleeping" />
+
+  <TextView
+      android:layout_width="400dp"
+      android:layout_height="50dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="460dp"
+      android:text="To turn off the flash light, click on orange button and say"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="18sp" />
+
+
+  <ToggleButton
+      android:id="@+id/micbtn"
+      android:layout_width="100dp"
+      android:layout_height="40dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="510dp"
+      android:background="#FF6D00"
+      android:buttonTint="#FFFFFF"
+      android:text="Microphone Features" />
+
+</RelativeLayout>
+
+
+

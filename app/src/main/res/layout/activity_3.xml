@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:id="@+id/ll_wrapper_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/mediaplayer" />
+
+        <SeekBar
+            android:id="@+id/sebar"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp" />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:id="@+id/ll_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/playbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:backgroundTint="#00C853"
+                app:srcCompat="@drawable/play" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/pausebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:backgroundTint="#FF6D00"
+                app:srcCompat="@drawable/pause" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/stopbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:backgroundTint="#DD2C00"
+                app:srcCompat="@drawable/stop" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Proximity Sensor"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="26dp"
+        android:backgroundTint="#6DD5FA"
+        android:layout_marginTop="80dp"
+        >
+
+        <TextView
+            android:id="@+id/sen_val"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:text="Sensor Value"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/nxtbtn4"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        app:cornerRadius="28dp"
+        android:text="Next Sensor Task" />
+
+    <Button
+        android:id="@+id/prevbtn"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:text="Previous Sensor Task"
+        app:cornerRadius="28dp"/>
+
+</RelativeLayout>
