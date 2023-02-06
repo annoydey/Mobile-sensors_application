@@ -1,4 +1,4 @@
-# Mobile Sensor Test Application
+# Mobile Sensor Test App
 
 Users can test his/her mobile sensors.
 Features like: 
