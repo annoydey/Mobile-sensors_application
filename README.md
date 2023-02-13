@@ -10,6 +10,8 @@ Features like:
 #### Before installing this app please set up the finger prints and install the apk to avoid an error.
 
 
+![Sensor Application](https://user-images.githubusercontent.com/43465122/218346455-c0e8039c-5c86-4e90-bd16-7199f2a52ad2.jpg)
+
 
 ## 🔗 Apk file download link from google drive
 https://drive.google.com/file/d/1XRiuNYJWh3UmgP_pvx987BkpwuYgFKQ-/view?usp=share_link
